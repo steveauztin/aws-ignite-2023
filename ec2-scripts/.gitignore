@@ -1,3 +1,4 @@
+get-variables-delete.sh
 /apache/get-variables-instance-delete.sh
 /node/get-variables-instance-delete.sh
 /python/get-variables-instance-delete.sh
