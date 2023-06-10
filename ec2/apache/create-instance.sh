@@ -9,6 +9,7 @@ INSTANCE_ID=$(aws ec2 run-instances \
   --region $AWS_REGION \
   --image-id $AMI_ID \
   --instance-type $INSTANCE_TYPE \
+  --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=apache-bootcamp-instance}]" \
   --iam-instance-profile Name=$INSTANCE_PROFILE_NAME \
   --security-groups $SECURITY_GROUP_NAME \
   --user-data "$INSTALL_SCRIPT" \
