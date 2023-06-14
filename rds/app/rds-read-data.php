@@ -1,3 +1,6 @@
+<?php
+echo "<meta http-equiv=\"refresh\" content=\"5,URL=/rds.php\" />";
+?>
 <h2>Address Book</h2>
 <?php 
   //This is a simple address book example for testing with RDS
